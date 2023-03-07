@@ -9,7 +9,7 @@
 *   => so the inheriting F1.sol contract can dynamically update it using setNS()
 * 
 ***************************************************************************************************/
-pragma solidity ^0.8.18;
+pragma solidity ^0.8.18;                                // original: pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol";
